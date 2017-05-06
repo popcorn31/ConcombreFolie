@@ -5,6 +5,7 @@
  */
 package Metiers.Banque;
 
+import Entites.Banque.ClientBanque;
 import Entites.Banque.Compte;
 import java.util.List;
 import javax.ejb.Local;
@@ -16,7 +17,7 @@ import javax.ejb.Local;
 @Local
 public interface GestionClientLocal {
 
-    long creerClient(String nom, String prenom) throws Exceptions.ClientExistantException;
+    ClientBanque creerClient(String nom, String prenom) throws Exceptions.ClientExistantException;
 
     long chercherClient(String nom, String prenom) throws Exceptions.ClientInconnuException;
 

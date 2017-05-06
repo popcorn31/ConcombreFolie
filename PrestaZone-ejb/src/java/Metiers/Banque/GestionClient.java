@@ -29,7 +29,7 @@ public class GestionClient implements GestionClientLocal {
     
 
     @Override
-    public long creerClient(String nom, String prenom) throws Exceptions.ClientExistantException {
+    public ClientBanque creerClient(String nom, String prenom) throws Exceptions.ClientExistantException {
         try {
             // si le client n'existe pas il y aura une exception
             clientFacade.chercherClient(nom, prenom);
@@ -40,7 +40,8 @@ public class GestionClient implements GestionClientLocal {
         ClientBanque c = new ClientBanque ();
         c.setNom(nom);
         c.setPrenom(prenom);
-        return (long) clientFacade.create(c);
+        clientFacade.create(c);
+        return c ;
     }
 
     @Override
@@ -68,7 +69,8 @@ public class GestionClient implements GestionClientLocal {
         Compte compte = new Compte();
         compte.setLeClient(c);
         c.getLesComptes().add(compte);
-        return (Compte) compteFacade.create(compte);
+        compteFacade.create(compte);
+        return compte ;
     }
     
     

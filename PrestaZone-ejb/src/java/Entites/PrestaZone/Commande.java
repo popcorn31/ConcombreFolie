@@ -26,6 +26,15 @@ public class Commande implements Serializable {
     private Client leCli;
     private ArrayList<Produit> lesProduits;
     private float montantTot;
+    private String etat;
+
+    public String getEtat() {
+        return etat;
+    }
+
+    public void setEtat(String etat) {
+        this.etat = etat;
+    }
 
     //Attributs Publics
     public Long getId() {
@@ -46,13 +55,29 @@ public class Commande implements Serializable {
     public void setLeCli(Client leCli) {
         this.leCli = leCli;
     }
-    public void setLesProduits(Produit unProduit) {
+    public void setLesProduits(Produit unProduit) 
+    {
         this.lesProduits.add(unProduit);
     }
+    
+    public void changerProd(ArrayList<Produit> p_lesProduits)
+    {
+        this.lesProduits=p_lesProduits;
+    }
+    
     public void setMontantTot(float montantTot) {
         this.montantTot = montantTot;
     }
     
+    
+    public Commande (Client p_leCli, ArrayList<Produit> p_lesProduits, float p_montantTot, String p_etat)
+    {
+        leCli=p_leCli;
+        lesProduits=p_lesProduits;
+        montantTot=p_montantTot;
+        etat=p_etat;
+        
+    }
     @Override
     public int hashCode() {
         int hash = 0;

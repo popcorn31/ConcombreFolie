@@ -10,7 +10,6 @@ import java.util.List;
 import javax.ejb.Local;
 
 /**
- *
  * @author PJES465
  */
 @Local
@@ -29,5 +28,6 @@ public interface CommandeFacadeLocal {
     List<Commande> findRange(int[] range);
 
     int count();
+   
     
 }

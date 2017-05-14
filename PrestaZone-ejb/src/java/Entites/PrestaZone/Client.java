@@ -72,6 +72,44 @@ public class Client implements Serializable {
         login = p_login;
         mp = p_mp;
     }
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
+    }
+
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getMp() {
+        return mp;
+    }
+
+    public void setMp(String mp) {
+        this.mp = mp;
+    }
+
+    public ArrayList<Commande> getLesCommandes() {
+        return lesCommandes;
+    }
+
+ 
     
     //Méthodes et fonctions
     @Override

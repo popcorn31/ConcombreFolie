@@ -30,4 +30,12 @@ public interface ProduitFacadeLocal {
 
     int count();
     
+    Produit chercherUnProduit (long ref) throws Exceptions.ProduitInconnuException; 
+    
+    Produit chercherUnProduit (String nom_produit) throws Exceptions.ProduitInconnuException;
+    
+    void afficherLesProduits (List<Produit> liste_prod); 
+    
+    void ajouterStock(long p_id_prod, int p_quantite) throws Exceptions.ProduitInconnuException;
+    
 }

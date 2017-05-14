@@ -29,5 +29,9 @@ public interface ClientFacadeLocal {
     List<Client> findRange(int[] range);
 
     int count();
+   
+    long chercherClient(String nom, String prenom) throws Exceptions.ClientInconnuException;
+    
+    Client authentification (String p_login, String p_mp) throws Exceptions.ClientInconnuException;
     
 }

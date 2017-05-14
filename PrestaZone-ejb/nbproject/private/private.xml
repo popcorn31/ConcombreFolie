@@ -3,13 +3,27 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/K:/Document/MIAGE/Cours/M1/Semestre8/ApplicationEntreprise/PROJET/PrestaZone/PrestaZone-ejb/src/java/Controllers/Banque/CompteFacade.java</file>
-            <file>file:/K:/Document/MIAGE/Cours/M1/Semestre8/ApplicationEntreprise/PROJET/PrestaZone/PrestaZone-ejb/src/java/Services/Position.java</file>
-            <file>file:/K:/Document/MIAGE/Cours/M1/Semestre8/ApplicationEntreprise/PROJET/PrestaZone/PrestaZone-ejb/src/java/Controllers/Banque/OperationFacade.java</file>
-            <file>file:/K:/Document/MIAGE/Cours/M1/Semestre8/ApplicationEntreprise/PROJET/PrestaZone/PrestaZone-ejb/src/java/Controllers/Banque/OperationFacadeLocal.java</file>
-            <file>file:/K:/Document/MIAGE/Cours/M1/Semestre8/ApplicationEntreprise/PROJET/PrestaZone/PrestaZone-ejb/src/java/Entites/Banque/Compte.java</file>
-            <file>file:/K:/Document/MIAGE/Cours/M1/Semestre8/ApplicationEntreprise/PROJET/PrestaZone/PrestaZone-ejb/src/java/Controllers/Banque/CompteFacadeLocal.java</file>
-            <file>file:/K:/Document/MIAGE/Cours/M1/Semestre8/ApplicationEntreprise/PROJET/PrestaZone/PrestaZone-ejb/src/java/Services/ServiceBanqueRemote.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Controllers/PrestaZone/ProduitFacade.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Metier/PrestaZone/ServiceLivraison.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Controllers/PrestaZone/CommandeFacade.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Metier/PrestaZone/ServiceCompatbleLocal.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Controllers/Banque/CompteFacadeLocal.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Metier/PrestaZone/ServiceLivraisonLocal.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Metier/PrestaZone/ServiceComptable.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Metier/PrestaZone/ServiceCommercialLocal.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Controllers/PrestaZone/ClientFacadeLocal.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Metiers/Banque/GestionClientLocal.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Metier/PrestaZone/ServiceCommercial.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Entites/PrestaZone/Client.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Metiers/Banque/GestionClient.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Controllers/Banque/CompteFacade.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Metier/PrestaZone/ServiceApprovisionnementLocal.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Controllers/PrestaZone/ProduitFacadeLocal.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Entites/PrestaZone/Produit.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Entites/PrestaZone/Commande.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Controllers/PrestaZone/CommandeFacadeLocal.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Metier/PrestaZone/ServiceApprovisionnement.java</file>
+            <file>file:/I:/MIAGE/GitHub/PrestaZone/PrestaZone-ejb/src/java/Controllers/PrestaZone/ClientFacade.java</file>
         </group>
     </open-files>
 </project-private>
